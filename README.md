@@ -1,6 +1,6 @@
 # Document-Classifier
 
-Project Overview
+
 This project is an end-to-end document classification and information extraction system built using FastAPI, React, and Transformers. It allows users to upload or capture images of documents such as licenses, passports, and IDs, then classifies them and extracts key information like name, date of birth, and document number using OCR and deep learning models.
 # Technologies Used
 ### Backend (FastAPI)
@@ -22,7 +22,8 @@ This project is an end-to-end document classification and information extraction
 •	- **Hugging Face Transformers**: Uses pre-trained LayoutLMv3 for document classification.
 •	- **PyTorch**: Powers the deep learning model for inference.
 •	- **Named Entity Recognition (NER)**: Identifies key details such as name, date of birth, and document number from extracted text.
-Project Features
+
+# Project Features
 •	1. **Document Upload**: Users can upload images (JPG, PNG, PDF) of documents.
 •	2. **Live Camera Capture**: Uses the webcam to scan documents in real-time.
 3. **OCR-based Text Extraction**: Extracts textual information using Tesseract OCR.
@@ -31,7 +32,8 @@ Project Features
 6. **Database Storage**: Saves extracted information in a SQLite database.
 7. **Real-time Processing**: Processes and classifies documents instantly.
 8. **API-Driven Architecture**: Provides RESTful API endpoints for easy integration with other applications.
-System Requirements
+
+# System Requirements
 ### Backend Setup
 Command:
 pip install fastapi uvicorn transformers torch pytesseract opencv-python-headless sqlalchemy sqlite3 pdf2image
